@@ -20,6 +20,7 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
+  display: inline-block;
 }
 
 p {
@@ -38,4 +39,12 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+
+
+.flag-img {
+  display: none;
+  height: 100px;
+  width: 100px;
 }
