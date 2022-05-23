@@ -1,5 +1,9 @@
 // condition is true only if reload occured, no need for additional comments :)
-if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
+
+console.log(performance.getEntriesByType("navigation")[0].type)
+
+if (performance.getEntriesByType("navigation")[0].type == "reload") {
+    
 
 
     var img1 = document.getElementsByClassName("img1")[0]
